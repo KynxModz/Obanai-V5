@@ -1,0 +1,18 @@
+Usage: server [options]
+
+Options:
+  --update                   Adicionar uma atualização na contagem de
+                             atualizações atuais do servidor.
+  --no-files                 Ignorar upload de arquivos para o servidor.
+  --script                   Ativa o upload do script.sh para ser
+                             enviado ao servidor. (default=off).
+  --last-update              Obtém a contagem de atualizações atuais
+                             do servidor.
+  --delete-user [number]     Deleta um usuário do servidor a partir de
+                             um número de telefone.
+  --check [number]           Checar se um usuário existe no servidor
+  --help -h                  Obtenha ajuda rápida para comandos.
+
+Muita atenção, por padrão ele envia arquivos direto sem usar --update
+esse parâmetro é apenas para liberar uma atualização, enquanto
+o resto é para atualizar arquivos.
